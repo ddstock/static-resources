@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <SiteSelector>
+    <Header>Sites</Header>
+    <Item>
+      <UnderMaintenance>Under maintenance</UnderMaintenance>
+      <NotImplemented>Not implemented yet</NotImplemented>
+    </Item>
+  </SiteSelector>
+
+  <LanguagePreference>
+    <Label>Language preference</Label>
+
+    <Languages>
+      <en-US>English (US)</en-US>
+      <vi-VN>Vietnamese</vi-VN>
+      <ja-JP>Japanese</ja-JP>
+    </Languages>
+  </LanguagePreference>
+
+  <Account>
+    <Balance>Balance</Balance>
+    <Functions>
+      <Login>login</Login>
+      <Logout>logout</Logout>
+    </Functions>
+
+    <Dialog>
+      <Login>
+        <Label>Login</Label>
+        <Username>Username</Username>
+        <Password>Password</Password>
+        <Button>Login</Button>
+      </Login>
+      <Charge></Charge>
+    </Dialog>
+  </Account>
+
+  <Evaluator>
+    <Evaluate>evaluate</Evaluate>
+    <InputGroup>
+      <Label>URL</Label>
+      <PlaceHolder>Enter the URL of the image. If it appears as a pop-up, open it in a new tab.</PlaceHolder>
+      <Selected>selected</Selected>
+    </InputGroup>
+  </Evaluator>
+
+  <Preview>
+    <Label>
+      <Text>Preview</Text>
+      <Total>Total</Total>
+    </Label>
+    <Button>
+      <Default>Save</Default>
+      <Insufficient>Insufficient balance</Insufficient>
+      <Saving>Saving</Saving>
+    </Button>
+    <Empty>Nothing here</Empty>
+    <Fee>Fee</Fee>
+  </Preview>
+
+  <Saved>
+    <Label>Saved</Label>
+    <Empty>Nothing here</Empty>
+  </Saved>
+
+  <Api>
+    <Evaluate>
+      <Errors>
+        <None></None>
+        <NotFound>Image not found (make sure the URL is correct)</NotFound>
+        <Invalid>Invalid URL</Invalid>
+        <Internal>Service is currently unavailable</Internal>
+        <External>External service is currently unavailable</External>
+        <Unhandled>Unknown error</Unhandled>
+      </Errors>
+    </Evaluate>
+  </Api>
+
+  <Locker>
+    <Auth>You have to log in first to use this function</Auth>
+    <Site>You have to select target site first to use this function</Site>
+    <Swipe>(Swipe to right)</Swipe>
+  </Locker>
+</application>

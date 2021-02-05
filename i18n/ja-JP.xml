@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <SiteSelector>
+    <Header>サイト</Header>
+    <Item>
+      <UnderMaintenance>メンテナンス中</UnderMaintenance>
+      <NotImplemented>まだ実装されていません</NotImplemented>
+    </Item>
+  </SiteSelector>
+
+  <LanguagePreference>
+    <Label>言語選択</Label>
+
+    <Languages>
+      <en-US>英語 (US)</en-US>
+      <vi-VN>ベトナム語</vi-VN>
+      <ja-JP>日本語</ja-JP>
+    </Languages>
+  </LanguagePreference>
+
+  <Account>
+    <Balance>残高</Balance>
+    <Functions>
+      <Login>ログインする</Login>
+      <Logout>ログアウト</Logout>
+    </Functions>
+
+    <Dialog>
+      <Login>
+        <Label>ログインする</Label>
+        <Username>ユーザー名</Username>
+        <Password>パスワード</Password>
+        <Button>ログインする</Button>
+      </Login>
+      <Charge></Charge>
+    </Dialog>
+  </Account>
+
+  <Evaluator>
+    <Evaluate>評価する</Evaluate>
+    <InputGroup>
+      <Label>URL</Label>
+      <PlaceHolder>画像のURLを入力します。 ポップアップとして表示されている場合は、新しいタブで開いてください。</PlaceHolder>
+      <Selected>選択済み</Selected>
+    </InputGroup>
+  </Evaluator>
+
+  <Preview>
+    <Label>
+      <Text>プレビュー</Text>
+      <Total>合計</Total>
+    </Label>
+    <Button>
+      <Default>保存する</Default>
+      <Insufficient>残高不足</Insufficient>
+      <Saving>Saving</Saving>
+    </Button>
+    <Empty>ここには何もない</Empty>
+    <Fee>費用</Fee>
+  </Preview>
+
+  <Saved>
+    <Label>保存した画像</Label>
+    <Empty>ここには何もない</Empty>
+  </Saved>
+
+  <Api>
+    <Evaluate>
+      <Errors>
+        <None></None>
+        <NotFound>画像が見つかりません (URL が正しいことを確認してください)</NotFound>
+        <Invalid>無効なURL</Invalid>
+        <Internal>現在、サービスはご利用いただけません</Internal>
+        <External>外部サービスは現在利用できません</External>
+        <Unhandled>未知のエラー</Unhandled>
+      </Errors>
+    </Evaluate>
+  </Api>
+
+  <Locker>
+    <Auth>この機能を使用するには、最初にログインする必要があります</Auth>
+    <Site>この機能を使用するには、最初にターゲットサイトを選択する必要があります</Site>
+    <Swipe>(右にスワイプ)</Swipe>
+  </Locker>
+</application>

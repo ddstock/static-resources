@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <SiteSelector>
+    <Header>Các trang</Header>
+    <Item>
+      <UnderMaintenance>Bảo trì</UnderMaintenance>
+      <NotImplemented>Chưa hoạt động</NotImplemented>
+    </Item>
+  </SiteSelector>
+
+  <LanguagePreference>
+    <Label>Tùy chọn ngôn ngữ</Label>
+
+    <Languages>
+      <en-US>Tiếng Anh (US)</en-US>
+      <vi-VN>Tiếng Việt</vi-VN>
+      <ja-JP>Tiếng Nhật</ja-JP>
+    </Languages>
+  </LanguagePreference>
+
+  <Account>
+    <Balance>Số dư</Balance>
+    <Functions>
+      <Login>Đăng nhập</Login>
+      <Logout>Thoát</Logout>
+    </Functions>
+
+    <Dialog>
+      <Login>
+        <Label>Đăng nhập</Label>
+        <Username>Tên người dùng</Username>
+        <Password>Mật khẩu</Password>
+        <Button>Đăng nhập</Button>
+      </Login>
+      <Charge></Charge>
+    </Dialog>
+  </Account>
+
+  <Evaluator>
+    <Evaluate>đánh giá</Evaluate>
+    <InputGroup>
+      <Label>URL</Label>
+      <PlaceHolder>Nhập đường dẫn hình ảnh, nếu hình ảnh ở dạng popup, bạn hãy mở nó bằng tab mới.</PlaceHolder>
+      <Selected>đã chọn</Selected>
+    </InputGroup>
+  </Evaluator>
+
+  <Preview>
+    <Label>
+      <Text>Xem trước</Text>
+      <Total>Tổng</Total>
+    </Label>
+    <Button>
+      <Default>Lưu</Default>
+      <Insufficient>Số dư không đủ</Insufficient>
+      <Saving>Đang lưu</Saving>
+    </Button>
+    <Empty>Không có gì</Empty>
+    <Fee>Phí</Fee>
+  </Preview>
+
+  <Saved>
+    <Label>Ảnh đã lưu</Label>
+    <Empty>Không có gì</Empty>
+  </Saved>
+
+  <Api>
+    <Evaluate>
+      <Errors>
+        <None></None>
+        <NotFound>Không tìm thấy hình ảnh (hãy chắc chắn bạn gõ đúng URL)</NotFound>
+        <Invalid>URL không hợp lệ</Invalid>
+        <Internal>Dịch vụ hiện không khả dụng</Internal>
+        <External>Dịch vụ ngoài hiện không khả dụng</External>
+        <Unhandled>Lỗi chưa biết</Unhandled>
+      </Errors>
+    </Evaluate>
+  </Api>
+
+  <Locker>
+    <Auth>Bạn phải đăng nhập để sử dụng tính năng này</Auth>
+    <Site>Bạn phải chọn trang web sản phẩn trước để sử dụng tính năng này</Site>
+    <Swipe>(Kéo sang phải)</Swipe>
+  </Locker>
+</application>
