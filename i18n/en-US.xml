@@ -24,17 +24,27 @@
       <Login>login</Login>
       <Logout>logout</Logout>
     </Functions>
-
-    <Dialog>
-      <Login>
-        <Label>Login</Label>
-        <Username>Username</Username>
-        <Password>Password</Password>
-        <Button>Login</Button>
-      </Login>
-      <Charge></Charge>
-    </Dialog>
   </Account>
+
+  <Dialog>
+    <Login>
+      <Label>Login</Label>
+      <Username>Username</Username>
+      <Password>Password</Password>
+      <Button>Login</Button>
+    </Login>
+
+    <SavedInfo>
+      <Label>Detail</Label>
+      <Detail>
+        <Name>Name</Name>
+        <Description>Description</Description>
+        <Source>Source</Source>
+        <PurchaseAt>Purchased at</PurchaseAt>
+        <Expire>Expire</Expire>
+      </Detail>
+    </SavedInfo>
+  </Dialog>
 
   <Evaluator>
     <Evaluate>evaluate</Evaluate>
@@ -82,4 +92,21 @@
     <Site>You have to select target site first to use this function</Site>
     <Swipe>(Swipe to right)</Swipe>
   </Locker>
+
+  <DateTime>
+    <Months>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </Months>
+  </DateTime>
 </application>

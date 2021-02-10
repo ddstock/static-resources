@@ -24,17 +24,27 @@
       <Login>ログインする</Login>
       <Logout>ログアウト</Logout>
     </Functions>
-
-    <Dialog>
-      <Login>
-        <Label>ログインする</Label>
-        <Username>ユーザー名</Username>
-        <Password>パスワード</Password>
-        <Button>ログインする</Button>
-      </Login>
-      <Charge></Charge>
-    </Dialog>
   </Account>
+
+  <Dialog>
+    <Login>
+      <Label>ログインする</Label>
+      <Username>ユーザー名</Username>
+      <Password>パスワード</Password>
+      <Button>ログインする</Button>
+    </Login>
+
+    <SavedInfo>
+      <Label>詳細</Label>
+      <Detail>
+        <Name>名前</Name>
+        <Description>説明</Description>
+        <Source>ソース</Source>
+        <PurchaseAt>購入しました</PurchaseAt>
+        <Expire>期限切れ</Expire>
+      </Detail>
+    </SavedInfo>
+  </Dialog>
 
   <Evaluator>
     <Evaluate>評価する</Evaluate>
@@ -82,4 +92,21 @@
     <Site>この機能を使用するには、最初にターゲットサイトを選択する必要があります</Site>
     <Swipe>(右にスワイプ)</Swipe>
   </Locker>
+
+  <DateTime>
+    <Months>
+      <Month>1月</Month>
+      <Month>2月</Month>
+      <Month>3月</Month>
+      <Month>4月</Month>
+      <Month>5月</Month>
+      <Month>6月</Month>
+      <Month>7月</Month>
+      <Month>8月</Month>
+      <Month>9月</Month>
+      <Month>10月</Month>
+      <Month>11月</Month>
+      <Month>12月</Month>
+    </Months>
+  </DateTime>
 </application>

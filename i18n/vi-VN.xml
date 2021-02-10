@@ -24,17 +24,27 @@
       <Login>Đăng nhập</Login>
       <Logout>Thoát</Logout>
     </Functions>
-
-    <Dialog>
-      <Login>
-        <Label>Đăng nhập</Label>
-        <Username>Tên người dùng</Username>
-        <Password>Mật khẩu</Password>
-        <Button>Đăng nhập</Button>
-      </Login>
-      <Charge></Charge>
-    </Dialog>
   </Account>
+
+  <Dialog>
+    <Login>
+      <Label>Đăng nhập</Label>
+      <Username>Tên người dùng</Username>
+      <Password>Mật khẩu</Password>
+      <Button>Đăng nhập</Button>
+    </Login>
+
+    <SavedInfo>
+      <Label>Chi tiết</Label>
+      <Detail>
+        <Name>Tên</Name>
+        <Description>Mô tả</Description>
+        <Source>Nguồn</Source>
+        <PurchaseAt>Mua ngày</PurchaseAt>
+        <Expire>Hết hạn</Expire>
+      </Detail>
+    </SavedInfo>
+  </Dialog>
 
   <Evaluator>
     <Evaluate>đánh giá</Evaluate>
@@ -82,4 +92,21 @@
     <Site>Bạn phải chọn trang web sản phẩn trước để sử dụng tính năng này</Site>
     <Swipe>(Kéo sang phải)</Swipe>
   </Locker>
+
+  <DateTime>
+    <Months>
+      <Month>Tháng 1</Month>
+      <Month>Tháng 2</Month>
+      <Month>Tháng 3</Month>
+      <Month>Tháng 4</Month>
+      <Month>Tháng 5</Month>
+      <Month>Tháng 6</Month>
+      <Month>Tháng 7</Month>
+      <Month>Tháng 8</Month>
+      <Month>Tháng 9</Month>
+      <Month>Tháng 10</Month>
+      <Month>Tháng 11</Month>
+      <Month>Tháng 12</Month>
+    </Months>
+  </DateTime>
 </application>
