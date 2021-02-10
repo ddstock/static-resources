@@ -42,6 +42,10 @@
         <Source>Nguồn</Source>
         <PurchaseAt>Mua ngày</PurchaseAt>
         <Expire>Hết hạn</Expire>
+        <Expired>Đã hết hạn</Expired>
+        <Download>Tải về</Download>
+        <Remove>Xóa</Remove>
+        <Renew>Tải lại</Renew>
       </Detail>
     </SavedInfo>
   </Dialog>

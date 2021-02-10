@@ -41,7 +41,11 @@
         <Description>説明</Description>
         <Source>ソース</Source>
         <PurchaseAt>購入しました</PurchaseAt>
-        <Expire>期限切れ</Expire>
+        <Expire>有効期限</Expire>
+        <Expired>期限切れ</Expired>
+        <Download>ダウンロード</Download>
+        <Remove>削除する</Remove>
+        <Renew>更新</Renew>
       </Detail>
     </SavedInfo>
   </Dialog>

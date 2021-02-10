@@ -42,6 +42,10 @@
         <Source>Source</Source>
         <PurchaseAt>Purchased at</PurchaseAt>
         <Expire>Expire</Expire>
+        <Expired>Expired</Expired>
+        <Download>Download</Download>
+        <Remove>Remove</Remove>
+        <Renew>Renew</Renew>
       </Detail>
     </SavedInfo>
   </Dialog>
