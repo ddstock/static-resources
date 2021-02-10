@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <SiteSelector>
+    <Header>Sitios</Header>
+    <Item>
+      <UnderMaintenance>En mantenimiento</UnderMaintenance>
+      <NotImplemented>Aún sin implementar</NotImplemented>
+    </Item>
+  </SiteSelector>
+
+  <LanguagePreference>
+    <Label>Preferencia de idioma</Label>
+
+    <Languages>
+      <en>Inglés</en>
+      <es>Española</es>
+      <ja>Japonés</ja>
+      <vi>Vietnamita</vi>
+    </Languages>
+  </LanguagePreference>
+
+  <Account>
+    <Balance>Saldo</Balance>
+    <Functions>
+      <Login>iniciar sesión</Login>
+      <Logout>cerrar sesión</Logout>
+    </Functions>
+  </Account>
+
+  <Dialog>
+    <Login>
+      <Label>Iniciar sesión</Label>
+      <Username>Nombre de usuario</Username>
+      <Password>Contraseña</Password>
+      <Button>Iniciar sesión</Button>
+    </Login>
+
+    <SavedInfo>
+      <Label>Detalle</Label>
+      <Detail>
+        <Name>Nombre</Name>
+        <Description>Descripción</Description>
+        <Source>Fuente</Source>
+        <PurchaseAt>Comprado en</PurchaseAt>
+        <Expire>Expirar</Expire>
+        <Expired>Caducado</Expired>
+        <Download>Descargar</Download>
+        <Remove>Eliminar</Remove>
+        <Renew>Renovar</Renew>
+      </Detail>
+    </SavedInfo>
+  </Dialog>
+
+  <Evaluator>
+    <Evaluate>evaluar</Evaluate>
+    <InputGroup>
+      <Label>URL</Label>
+      <PlaceHolder>Ingrese la URL de la imagen. Si aparece como una ventana emergente, ábrala en una nueva pestaña.</PlaceHolder>
+      <Selected>seleccionado</Selected>
+    </InputGroup>
+  </Evaluator>
+
+  <Preview>
+    <Label>
+      <Text>Avance</Text>
+      <Total>Total</Total>
+    </Label>
+    <Button>
+      <Default>Salvar</Default>
+      <Insufficient>Saldo insuficiente</Insufficient>
+      <Saving>Salvando</Saving>
+    </Button>
+    <Empty>Nada aquí</Empty>
+    <Fee>Cuota</Fee>
+  </Preview>
+
+  <Saved>
+    <Label>Salvado</Label>
+    <Empty>Nada aquí</Empty>
+  </Saved>
+
+  <Api>
+    <Evaluate>
+      <Errors>
+        <None></None>
+        <NotFound>Imagen no encontrada (asegúrese de que la URL sea correcta)</NotFound>
+        <Invalid>URL invalida</Invalid>
+        <Internal>El servicio no está disponible actualmente</Internal>
+        <External>El servicio externo no está disponible actualmente</External>
+        <Unhandled>Error desconocido</Unhandled>
+      </Errors>
+    </Evaluate>
+  </Api>
+
+  <Locker>
+    <Auth>Primero debe iniciar sesión para usar esta función</Auth>
+    <Site>Primero debe seleccionar el sitio de destino para usar esta función</Site>
+    <Swipe>(Desliza hacia la derecha)</Swipe>
+  </Locker>
+
+  <DateTime>
+    <Months>
+      <Month>Enero</Month>
+      <Month>Feb</Month>
+      <Month>Marzo</Month>
+      <Month>Abr</Month>
+      <Month>Mayo</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Agosto</Month>
+      <Month>Sept</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dic</Month>
+    </Months>
+  </DateTime>
+</application>
