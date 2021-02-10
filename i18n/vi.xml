@@ -12,9 +12,9 @@
     <Label>Tùy chọn ngôn ngữ</Label>
 
     <Languages>
-      <en-US>Tiếng Anh (US)</en-US>
-      <vi-VN>Tiếng Việt</vi-VN>
-      <ja-JP>Tiếng Nhật</ja-JP>
+      <en>Tiếng Anh</en>
+      <vi>Tiếng Việt</vi>
+      <ja>Tiếng Nhật</ja>
     </Languages>
   </LanguagePreference>
 

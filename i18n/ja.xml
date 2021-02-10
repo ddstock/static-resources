@@ -12,9 +12,9 @@
     <Label>言語選択</Label>
 
     <Languages>
-      <en-US>英語 (US)</en-US>
-      <vi-VN>ベトナム語</vi-VN>
-      <ja-JP>日本語</ja-JP>
+      <en>英語</en>
+      <vi>ベトナム語</vi>
+      <ja>日本語</ja>
     </Languages>
   </LanguagePreference>
 

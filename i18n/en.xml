@@ -12,9 +12,9 @@
     <Label>Language preference</Label>
 
     <Languages>
-      <en-US>English (US)</en-US>
-      <vi-VN>Vietnamese</vi-VN>
-      <ja-JP>Japanese</ja-JP>
+      <en>English</en>
+      <vi>Vietnamese</vi>
+      <ja>Japanese</ja>
     </Languages>
   </LanguagePreference>
 

@@ -1,1 +1,1 @@
-en-US,ja-JP,vi-VN
+en,ja,vi
