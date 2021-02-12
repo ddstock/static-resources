@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
-  <SiteSelector>
-    <Header>サイト</Header>
-    <Item>
-      <UnderMaintenance>メンテナンス中</UnderMaintenance>
-      <NotImplemented>まだ実装されていません</NotImplemented>
-    </Item>
-  </SiteSelector>
+  <Navigator>
+    <SiteSelector>
+      <Label>サイト</Label>
+      <Item>
+        <UnderMaintenance>メンテナンス中</UnderMaintenance>
+        <NotImplemented>まだ実装されていません</NotImplemented>
+      </Item>
+    </SiteSelector>
 
-  <LanguagePreference>
-    <Label>言語選択</Label>
+    <Feedback>
+      <Label>フィードバック</Label>
+    </Feedback>
 
-    <Languages>
-      <en>英語</en>
-      <es>スペイン語</es>
-      <ja>日本語</ja>
-      <vi>ベトナム語</vi>
-    </Languages>
-  </LanguagePreference>
+    <About>
+      <Label>関しては</Label>
+    </About>
 
-  <Account>
-    <Balance>残高</Balance>
-    <Functions>
-      <Login>ログインする</Login>
-      <Logout>ログアウト</Logout>
-    </Functions>
-  </Account>
+    <LanguagePreference>
+      <Label>言語選択</Label>
+
+      <Languages>
+        <en>英語</en>
+        <ja>日本語</ja>
+        <vi>ベトナム語</vi>
+      </Languages>
+    </LanguagePreference>
+
+    <Account>
+      <Balance>残高</Balance>
+      <Functions>
+        <Login>ログインする</Login>
+        <Logout>ログアウト</Logout>
+      </Functions>
+    </Account>
+  </Navigator>
 
   <Dialog>
     <Login>
@@ -49,6 +58,28 @@
         <Renew>更新</Renew>
       </Detail>
     </SavedInfo>
+
+    <Feedback>
+      <Label>フィードバック</Label>
+      <Inputs>
+        <Name>名前</Name>
+        <Message>メッセージ</Message>
+      </Inputs>
+
+      <Actions>
+        <Close>閉じる</Close>
+        <Send>送信</Send>
+      </Actions>
+    </Feedback>
+
+    <About>
+      <Label>関しては</Label>
+      <Content>
+        <Version>バージョン</Version>
+
+        <Text>ここには何もない</Text>
+      </Content>
+    </About>
   </Dialog>
 
   <Evaluator>
@@ -56,7 +87,6 @@
     <InputGroup>
       <Label>URL</Label>
       <PlaceHolder>画像のURLを入力します。 ポップアップとして表示されている場合は、新しいタブで開いてください。</PlaceHolder>
-      <Selected>選択済み</Selected>
     </InputGroup>
   </Evaluator>
 
@@ -68,7 +98,7 @@
     <Button>
       <Default>保存する</Default>
       <Insufficient>残高不足</Insufficient>
-      <Saving>Saving</Saving>
+      <Saving>保存する</Saving>
     </Button>
     <Empty>ここには何もない</Empty>
     <Fee>費用</Fee>

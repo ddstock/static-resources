@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
-  <SiteSelector>
-    <Header>Các trang</Header>
-    <Item>
-      <UnderMaintenance>Bảo trì</UnderMaintenance>
-      <NotImplemented>Chưa hoạt động</NotImplemented>
-    </Item>
-  </SiteSelector>
+  <Navigator>
+    <SiteSelector>
+      <Label>Các trang</Label>
+      <Item>
+        <UnderMaintenance>Bảo trì</UnderMaintenance>
+        <NotImplemented>Chưa hoạt động</NotImplemented>
+      </Item>
+    </SiteSelector>
 
-  <LanguagePreference>
-    <Label>Tùy chọn ngôn ngữ</Label>
+    <Feedback>
+      <Label>Phản hồi</Label>
+    </Feedback>
 
-    <Languages>
-      <en>Tiếng Anh</en>
-      <es>Tiếng Tây Ban Nha</es>
-      <ja>Tiếng Nhật</ja>
-      <vi>Tiếng Việt</vi>
-    </Languages>
-  </LanguagePreference>
+    <About>
+      <Label>Giới thiệu</Label>
+    </About>
 
-  <Account>
-    <Balance>Số dư</Balance>
-    <Functions>
-      <Login>Đăng nhập</Login>
-      <Logout>Thoát</Logout>
-    </Functions>
-  </Account>
+    <LanguagePreference>
+      <Label>Tùy chọn ngôn ngữ</Label>
+
+      <Languages>
+        <en>Tiếng Anh</en>
+        <ja>Tiếng Nhật</ja>
+        <vi>Tiếng Việt</vi>
+      </Languages>
+    </LanguagePreference>
+
+    <Account>
+      <Balance>Số dư</Balance>
+      <Functions>
+        <Login>đăng nhập</Login>
+        <Logout>đăng xuất</Logout>
+      </Functions>
+    </Account>
+  </Navigator>
 
   <Dialog>
     <Login>
@@ -41,22 +50,43 @@
         <Name>Tên</Name>
         <Description>Mô tả</Description>
         <Source>Nguồn</Source>
-        <PurchaseAt>Mua ngày</PurchaseAt>
+        <PurchaseAt>Mua lúc</PurchaseAt>
         <Expire>Hết hạn</Expire>
         <Expired>Đã hết hạn</Expired>
-        <Download>Tải về</Download>
+        <Download>Tải xuống</Download>
         <Remove>Xóa</Remove>
-        <Renew>Tải lại</Renew>
+        <Renew>Mua lại</Renew>
       </Detail>
     </SavedInfo>
+
+    <Feedback>
+      <Label>Phản hồi</Label>
+      <Inputs>
+        <Name>Tên</Name>
+        <Message>Tin nhắn</Message>
+      </Inputs>
+
+      <Actions>
+        <Close>Đóng</Close>
+        <Send>Gửi</Send>
+      </Actions>
+    </Feedback>
+
+    <About>
+      <Label>Giới thiệu</Label>
+      <Content>
+        <Version>Phiên bản</Version>
+
+        <Text>Không có gì ở đây</Text>
+      </Content>
+    </About>
   </Dialog>
 
   <Evaluator>
     <Evaluate>đánh giá</Evaluate>
     <InputGroup>
       <Label>URL</Label>
-      <PlaceHolder>Nhập đường dẫn hình ảnh, nếu hình ảnh ở dạng popup, bạn hãy mở nó bằng tab mới.</PlaceHolder>
-      <Selected>đã chọn</Selected>
+      <PlaceHolder>Nhập đường dẫn hình ảnh, nếu hình ảnh ở dạng pop-up, bạn hãy mở nó bằng tab mới.</PlaceHolder>
     </InputGroup>
   </Evaluator>
 
@@ -66,17 +96,17 @@
       <Total>Tổng</Total>
     </Label>
     <Button>
-      <Default>Lưu</Default>
+      <Default>Lưu hết</Default>
       <Insufficient>Số dư không đủ</Insufficient>
       <Saving>Đang lưu</Saving>
     </Button>
-    <Empty>Không có gì</Empty>
+    <Empty>Không có gì ở đây</Empty>
     <Fee>Phí</Fee>
   </Preview>
 
   <Saved>
-    <Label>Ảnh đã lưu</Label>
-    <Empty>Không có gì</Empty>
+    <Label>Đã lưu</Label>
+    <Empty>Không có gì ở đây</Empty>
   </Saved>
 
   <Api>
@@ -95,7 +125,7 @@
   <Locker>
     <Auth>Bạn phải đăng nhập để sử dụng tính năng này</Auth>
     <Site>Bạn phải chọn trang web sản phẩn trước để sử dụng tính năng này</Site>
-    <Swipe>(Kéo sang phải)</Swipe>
+    <Swipe>(Vuốt sang phải)</Swipe>
   </Locker>
 
   <DateTime>

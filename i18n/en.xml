@@ -22,7 +22,6 @@
 
       <Languages>
         <en>English</en>
-        <es>Spanish</es>
         <ja>Japanese</ja>
         <vi>Vietnamese</vi>
       </Languages>
@@ -66,6 +65,11 @@
         <Name>Name</Name>
         <Message>Message</Message>
       </Inputs>
+
+      <Actions>
+        <Close>Close</Close>
+        <Send>Send</Send>
+      </Actions>
     </Feedback>
 
     <About>
@@ -73,7 +77,7 @@
       <Content>
         <Version>Version</Version>
 
-        <Text>Not thing here</Text>
+        <Text>Nothing here</Text>
       </Content>
     </About>
   </Dialog>
@@ -83,7 +87,6 @@
     <InputGroup>
       <Label>URL</Label>
       <PlaceHolder>Enter the URL of the image. If it appears as a pop-up, open it in a new tab.</PlaceHolder>
-      <Selected>selected</Selected>
     </InputGroup>
   </Evaluator>
 

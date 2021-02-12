@@ -1,1 +1,1 @@
-en,es,ja,vi
+en,ja,vi
