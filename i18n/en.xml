@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
-  <SiteSelector>
-    <Header>Sites</Header>
-    <Item>
-      <UnderMaintenance>Under maintenance</UnderMaintenance>
-      <NotImplemented>Not implemented yet</NotImplemented>
-    </Item>
-  </SiteSelector>
+  <Navigator>
+    <SiteSelector>
+      <Label>Sites</Label>
+      <Item>
+        <UnderMaintenance>Under maintenance</UnderMaintenance>
+        <NotImplemented>Not implemented yet</NotImplemented>
+      </Item>
+    </SiteSelector>
 
-  <LanguagePreference>
-    <Label>Language preference</Label>
+    <Feedback>
+      <Label>Feedback</Label>
+    </Feedback>
 
-    <Languages>
-      <en>English</en>
-      <es>Spanish</es>
-      <ja>Japanese</ja>
-      <vi>Vietnamese</vi>
-    </Languages>
-  </LanguagePreference>
+    <About>
+      <Label>About</Label>
+    </About>
 
-  <Account>
-    <Balance>Balance</Balance>
-    <Functions>
-      <Login>login</Login>
-      <Logout>logout</Logout>
-    </Functions>
-  </Account>
+    <LanguagePreference>
+      <Label>Language preference</Label>
+
+      <Languages>
+        <en>English</en>
+        <es>Spanish</es>
+        <ja>Japanese</ja>
+        <vi>Vietnamese</vi>
+      </Languages>
+    </LanguagePreference>
+
+    <Account>
+      <Balance>Balance</Balance>
+      <Functions>
+        <Login>login</Login>
+        <Logout>logout</Logout>
+      </Functions>
+    </Account>
+  </Navigator>
 
   <Dialog>
     <Login>
@@ -49,6 +59,23 @@
         <Renew>Renew</Renew>
       </Detail>
     </SavedInfo>
+
+    <Feedback>
+      <Label>Feedback</Label>
+      <Inputs>
+        <Name>Name</Name>
+        <Message>Message</Message>
+      </Inputs>
+    </Feedback>
+
+    <About>
+      <Label>About</Label>
+      <Content>
+        <Version>Version</Version>
+
+        <Text>Not thing here</Text>
+      </Content>
+    </About>
   </Dialog>
 
   <Evaluator>
