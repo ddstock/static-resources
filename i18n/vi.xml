@@ -70,6 +70,11 @@
         <Close>Đóng</Close>
         <Send>Gửi</Send>
       </Actions>
+
+      <Response>
+        <Success>Cảm ơn phản hồi của bạn!</Success>
+        <Fail>Không thể gửi phản hồi, hãy thử lại sau.</Fail>
+      </Response>
     </Feedback>
 
     <About>

@@ -70,6 +70,11 @@
         <Close>Close</Close>
         <Send>Send</Send>
       </Actions>
+
+      <Response>
+        <Success>Thanks for your feedback!</Success>
+        <Fail>Cannot send feedback, try again later.</Fail>
+      </Response>
     </Feedback>
 
     <About>
