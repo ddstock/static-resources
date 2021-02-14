@@ -85,6 +85,15 @@
         <Text>ここには何もない</Text>
       </Content>
     </About>
+
+    <RepoOrder>
+      <Label>並べ替え順序</Label>
+
+      <Fields>
+        <Description>説明</Description>
+        <PurchasedAt>購入時間</PurchasedAt>
+      </Fields>
+    </RepoOrder>
   </Dialog>
 
   <Evaluator>

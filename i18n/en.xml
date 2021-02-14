@@ -85,6 +85,15 @@
         <Text>Nothing here</Text>
       </Content>
     </About>
+
+    <RepoOrder>
+      <Label>Sort order</Label>
+
+      <Fields>
+        <Description>Description</Description>
+        <PurchasedAt>Purchase time</PurchasedAt>
+      </Fields>
+    </RepoOrder>
   </Dialog>
 
   <Evaluator>

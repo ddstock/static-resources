@@ -85,6 +85,15 @@
         <Text>Không có gì ở đây</Text>
       </Content>
     </About>
+
+    <RepoOrder>
+      <Label>Thứ tự sắp xếp</Label>
+
+      <Fields>
+        <Description>Mô tả</Description>
+        <PurchasedAt>Thời gian mua</PurchasedAt>
+      </Fields>
+    </RepoOrder>
   </Dialog>
 
   <Evaluator>
